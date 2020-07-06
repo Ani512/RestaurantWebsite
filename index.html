@@ -8,7 +8,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/conFusion/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <title>Ristorante Con Fusion</title>
 </head>
@@ -72,8 +72,8 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <!-- offset-1 can be added below after col-4 -->
-                <div class="col-4 col-sm-2">
+                <!-- offset-1 should be added to the div after this one to make it look good -->
+                <div class="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
@@ -82,7 +82,7 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-7 offset-1 col-sm-5">
+                <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
                         121, Clear Water Bay Road<br>
@@ -113,11 +113,10 @@
         </div>
     </footer>
 
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
